@@ -24,5 +24,6 @@ print(result)
 def compound_interest(amount, time, rate):
     return amount*(1+(rate/100))**time
 
+
 output = compound_interest(amount=1200, rate=5.4, time=2)
 print("compound_interest :", output)
